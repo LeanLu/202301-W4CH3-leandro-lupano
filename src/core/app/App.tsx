@@ -1,7 +1,5 @@
-// import { Footer } from "../footer/footer";
 import { HomePage } from "../../features/home/home";
 import { Header } from "../header/header";
-import "./App.scss";
 
 function App() {
   return (

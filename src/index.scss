@@ -3,7 +3,6 @@ body {
   overflow: hidden;
 }
 .container-list {
-  height: 300px;
 }
 .characters-list {
   flex-wrap: nowrap;
@@ -34,6 +33,7 @@ body {
   color: #fff;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 .character__overlay {
   border-radius: 0.25rem;
   position: absolute;
@@ -82,10 +82,6 @@ body {
   display: flex;
   align-items: center;
   transition: all 0.3s;
-  // Comment to correct later
-  right: 100vw;
-  // Comment to correct later
-  left: -100vw;
 }
 .comunications.on {
   right: 0;

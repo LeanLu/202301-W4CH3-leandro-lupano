@@ -12,6 +12,7 @@ export function HomePage() {
             characterName={item.characterName}
             family={item.family}
             age={item.age}
+            picture={item.picture}
           ></Card>
         ))}
       </ul>

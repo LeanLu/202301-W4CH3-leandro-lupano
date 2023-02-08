@@ -1,11 +1,17 @@
 import { Character } from "../models/Character";
 
-export function Card({ status, characterName, family, age }: Character) {
+export function Card({
+  status,
+  characterName,
+  family,
+  age,
+  picture,
+}: Character) {
   return (
     <li className="character col">
       <div className="card character__card">
         <img
-          src="img/no-one.jpg"
+          src={picture}
           alt="Nombre y familia del personaje"
           className="character__picture card-img-top"
         />
