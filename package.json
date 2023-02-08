@@ -44,6 +44,13 @@
     ]
   },
   "devDependencies": {
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "sass": "^1.58.0"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/reportWebVitals.ts",
+      "<rootDir>/src/index.ts"
+    ]
   }
 }
