@@ -37,11 +37,3 @@ export const CHARACTER: Character[] = [
     picture: "/bronn.jpg",
   },
 ];
-
-// const joffrey = new King( 23, 10);
-// const jaime = new Fighter('Jaime', 'Lannister', 30, 'sword', 7);
-// const daenerys = new Fighter('Daenerys', 'Targaryen', 28, 'dragon', 6);
-// const tyrion = new Counselor('Tyrion', 'Lannister', 35, daenerys);
-// const bronn = new Squire('Bronn', 'Gonzalez', 24, jaime, 9);
-
-// const characters: Character[] = [joffrey, jaime, daenerys, tyrion, bronn];

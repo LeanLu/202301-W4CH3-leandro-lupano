@@ -1,4 +1,3 @@
-// import { Footer } from "../footer/footer";
 import { HomePage } from "../../features/home/home";
 import { Header } from "../header/header";
 
